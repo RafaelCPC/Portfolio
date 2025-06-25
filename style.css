@@ -1,0 +1,24 @@
+:root{
+    --color-background: #EBEBE2;
+    --color-banner: #E4000F;
+    --color-sec-banner: ;
+    --color-main-font: ;
+    --color-sec-font: ;
+    --color-font: ;
+    --main-font: raleway ;
+    --sec-font: rajdhani ;
+}
+
+body{
+    background-color: var(--color-background);
+    margin: 0px;
+}
+#banner{
+    background-color: var(--color-banner);
+}
+.main-banner-text{
+    font-style: var(--main-font);
+}
+.banner-text{
+    font-style: var(--sec-font);
+}
